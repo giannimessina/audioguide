@@ -3,7 +3,7 @@ layout: episode
 lang: en
 ref: stop1
 permalink: /stops/1en/
-type: stop_en
+type: stopen
 section_title: L'IMPOSSIBILE È NOTO
 title: GENERAL INFO OF THE EXHIBITION
 page_rank: 1
