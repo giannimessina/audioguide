@@ -8,12 +8,12 @@
     ...
     {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
     {% for post in posts %}
-     <a href="{{ post.url }}">{{ post.lang }}</a>
+     <a href="{{ site.baseurl }}/{{ post.url }}">{{ post.lang }}</a>
     {% endfor %}
     
     {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
     {% for page in pages %}
-     <a href="{{ page.url }}">{{ page.lang }}</a>
+     <a href="{{ site.baseurl }}/{{ page.url }}">{{ page.lang }}</a>
     {% endfor %}
     </nav>
 
