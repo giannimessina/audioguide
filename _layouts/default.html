@@ -11,7 +11,21 @@
   
    <div class="page-content">
      <div class="wrapper welcome">
-      <p>{{ site.index_page_text }}</p>
+
+        <div class="slick-container post-hero-image-container">
+            <div class="slick-post-hero-image">
+           
+                <div class="post-hero-image">    
+                  <img src="{{ site.baseurl }}{{ site.episode_hero_path }}/copertina.jpg" alt="{{hero.alt_text}}"/>
+                </div>
+       
+            </div>
+        </div>
+
+
+
+
+      <p style="margin:0 auto; overflow:hidden">{{ site.index_page_text }}</p>
 
   <ul class="post-list">
     {% assign pages = site.pages | sort: 'page_rank' %}
