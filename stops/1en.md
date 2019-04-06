@@ -1,16 +1,15 @@
 ---
 layout: episode
-permalink: /stops/1/
+permalink: /stops/1en/
 type: stop_en
 section_title: Guida nr.1
 title: INFO GENERALE DELLA MOSTRA
 page_rank: 1
-stop_id: 1
-audio_file: audio1.mp3
-audioen_file: audio1en.mp3
+stop_id: 1en
+audio_file: audio1en.mp3
 hero_images:
  - path: copertina.png
-   alt_text: Guida nr.1
+   alt_text: Noto is Impossible
 ---
 
 “Noi siamo sul promontorio estremo dei secoli!... Perché dovremmo guardarci alle spalle, se vogliamo sfondare le misteriose porte dell'impossibile?”
