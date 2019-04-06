@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+  	{% include tagmanager.html %}
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper welcome">
+      	<div class="slick-container-container">
+	      	<div class="slick-container">
+		      	<div class="slick">
+		    		<div>
+						<!--<img src="{{ site.baseurl }}/assets/img/meta/og-image.jpg"/>-->
+						
+					  <p>Metti le cuffie prima di iniziare ad usare questa guida .</p>
+
+						<p>Speriamo che la visita sia di tuo gradimento.</p>
+						<div class="prompt slick-slide-to-next">Scorri per continuare
+						<span class="button-forward">
+	      					<img src="{{ site.baseurl }}/assets/img/icons/button_forward.png"/>
+	    				</span>
+	    				</div>
+					</div>
+					<div>
+						<p>Cerca il simbolo delle cuffie vicino alle opere e poi premi il numero che hai davanti per iniziare.</p>
+						<p>
+							<img class="welcome-example-icon slick-slide-to-next" src="{{ site.baseurl }}/assets/img/welcome/example-headphones-icon.gif"/>
+						</p>
+					</div>
+					<div>
+						<p>Premi l'icona del menu in alto a destra sullo schermo per passare ad un'altra opera.</p>
+						<p>
+							<img class="screenshot slick-slide-to-next" src="{{ site.baseurl }}/assets/img/welcome/highlight-bento-menu.gif"/>
+						</p>
+					</div>
+					<div>
+						<p>
+								Utilizzare i pulsanti nella parte inferiore dello schermo per passare all'opera successiva o precedente.</p>
+						<p>
+							<img class="screenshot slick-slide-to-next" src="{{ site.baseurl }}/assets/img/welcome/highlight-footer-buttons.gif"/>
+						</p>
+					</div>
+					<div>
+						<br/>
+						<p class="centered"><a href="{{ site.baseurl }}/">Let&rsquo;s begin!</a></p>
+						<p class="centered">
+							<a href="{{ site.baseurl }}/" class="prompt-big"><button class="styled-button"><img src="{{ site.baseurl }}/assets/img/icons/button_forward.png"/></button></a>
+						</p>
+					</div>
+		    	</div>
+		    </div>
+		</div>
+	    <div id="arrows-container">
+	    </div>
+
+        {{ content }}
+      </div>
+      	    <p class="skip-text">
+	    	<a href="{{ site.baseurl }}/">
+	        	Hai chiaro tutto? Iniziamo!
+	    	</a>
+	    </p>
+    </div>
+
+  </body>
+
+</html>
