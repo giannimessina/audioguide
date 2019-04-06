@@ -18,7 +18,11 @@ logo: "/assets/img/logo/audio-guide.png"
 twitter_username: giannimessina
 github_username:  giannimessina
 menu_heading: "Seleziona un numero"
+menu_heading_en: "Select a number"
+
 index_page_text: "Seleziona un numero per iniziare."
+index_page_text_en: "Select a number to start ..."
+
 headphones_icon_color: "/assets/img/icons/headphones-dark.png"
 headphones_icon_light: "/assets/img/icons/headphones-light.png"
 

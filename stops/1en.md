@@ -7,7 +7,7 @@ type: stop_en
 section_title: L'IMPOSSIBILE È NOTO
 title: GENERAL INFO OF THE EXHIBITION
 page_rank: 1
-stop_id: 1en
+stop_id: 1
 audio_file: audio1en.mp3
 hero_images:
  - path: copertina.png
