@@ -517,7 +517,7 @@ Hero images on audio guide stop pages
 *********************************************/
 .post-hero-image-container {
   margin-bottom: 0.5em;
-  background-color: #222;
+ /* background-color: #222;*/
   border-radius: 5px; }
 
 .post-hero-image {
