@@ -1,5 +1,7 @@
 ---
 layout: episode
+lang: en
+ref: stop1
 permalink: /stops/1en/
 type: stop_en
 section_title: L'IMPOSSIBILE È NOTO
@@ -11,6 +13,11 @@ hero_images:
  - path: copertina.png
    alt_text: Noto is Impossible
 ---
+
+
+
+
+
 
 "We are on the extreme promontory of the centuries! ...Why should we look behind us if we want to break through the mysterious doors of the impossible?"
 

@@ -12,6 +12,18 @@
    <div class="page-content">
      <div class="wrapper welcome">
 
+
+      {% assign posts=site.posts | where:"lang", page.lang %}
+<div class="post-listing">
+{% for post in posts %}
+  <a href="{{ post.url | relative_url }}">
+	<h1>{{ post.heading | escape }}</h1>
+  </a>
+{% endfor %}
+</div>
+
+
+
         <div class="slick-container post-hero-image-container">
             <div class="slick-post-hero-image">
            

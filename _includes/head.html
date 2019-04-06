@@ -42,7 +42,22 @@
   <!-- CSS for this web app -->
   <link rel='stylesheet' href='{{ "/assets/css/main.css" | prepend: site.baseurl }}?v={{ site.version_number }}'>
 
+<!-- Multilanguage -->
+
+{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+{% for post in posts %}
+  <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />
+{% endfor %}
+{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+{% for page in pages %}
+  <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />
+{% endfor %}
+
+
   <script type="text/javascript">
+
+
+
 
 // The JS code here is render blocking. We liked it this way, but you might want to change it if this sort of thing
 // worries you. More info on this here: https://varvy.com/pagespeed/render-blocking.html
