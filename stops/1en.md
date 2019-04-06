@@ -2,8 +2,8 @@
 layout: episode
 permalink: /stops/1en/
 type: stop_en
-section_title: Guida nr.1
-title: INFO GENERALE DELLA MOSTRA
+section_title: L'IMPOSSIBILE È NOTO
+title: GENERAL INFO OF THE EXHIBITION
 page_rank: 1
 stop_id: 1en
 audio_file: audio1en.mp3
@@ -12,16 +12,20 @@ hero_images:
    alt_text: Noto is Impossible
 ---
 
-“Noi siamo sul promontorio estremo dei secoli!... Perché dovremmo guardarci alle spalle, se vogliamo sfondare le misteriose porte dell'impossibile?”
+"We are on the extreme promontory of the centuries! ...Why should we look behind us if we want to break through the mysterious doors of the impossible?"
 
-Così scriveva Filippo Tommaso Marinetti nel 1909, nel Manifesto di Fondazione del Futurismo. Di lì a poco in tutta Europa, tale sarebbe stata la rivoluzione estetica e formale, concettuale, da influire sull’intero secolo a venire.
+So  Filippo Tommaso Marinetti wrote  in 1909, in the Manifesto of the Foundation of Futurism. Soon all over Europe, this would have been the aesthetic and formal, conceptual revolution  influencing  the entire century to come.
 
-Il Futurismo, il Cubismo, la Metafisica, Dada, il Surrealismo, sono questi i principali movimenti rivoluzionari della prima metà del Novecento. Movimenti che sempre sperimentarono andando alla ricerca dell’inaudito e, appunto, di quanto fino ad allora era stato ritenuto impossibile o, non sarebbe stato considerato “arte”. La mostra ne espone i principali artisti.
+Futurism, Cubism, Metaphysics, Dada, Surrealism are the main revolutionary movements of the first half of the twentieth century. Movements that always experimented by searching  the unprecedented and, precisely, of what until then had been considered impossible or would not have been considered "art".
 
-Nascono, in un breve lasso di tempo: una concezione mentale, poliprospettica, dell’immagine, l’idea della finzione pittorica che, superando sé stessa, entra nella realtà concreta, una concezione dell’arte non più limitata alle tecniche tradizionali, ma che vuole invece incidere sulla vita quotidiana e sulla società, e portare la società dentro sé stessa. Dopo la metà degli anni Dieci, mentre avvenivano le devastazioni della Prima guerra mondiale, lo spirito distruttivo del futurismo italiano è raccolto dal movimento dadaista, che non vuole solo rinnegare il modo in cui fino ad allora si era fatta arte, ma vuole rinnegare l’arte stessa, accogliendo la casualità, il gioco, l’irrazionale.
+The exhibition shows the main artists. In a short space of time, a mental, polyprospectic conception of image is born, the idea of ​​pictorial fiction that, overcoming itself, enters concrete reality, a conception of art no longer limited to traditional techniques,  which instead,  wants to affect everyday life and society, and brings society within itself.
 
-Nella seconda metà degli anni Dieci, in contrapposizione alla distruzione avanguardistica si produce, apparentemente al polo opposto del Dada, una ricostruzione dell’immagine pittorica: l’arte Metafisica. Ma la Metafisica, pur utilizzando una pittura figurativa accurata, narra e rappresenta lo smembramento dell’uomo e della conoscenza, che riflette la sua condizione esistenziale.
+After the mid-1990s, while the devastation of the First World War was taking place, the destructive spirit of Italian Futurism is gathered by the Dadaist movement, which not only wants to deny the way in which until then it had become art, but wants to deny the art itself, welcoming  randomness, game and the irrational.
 
-Negli anni Dieci, in parallelo alla ricerca cubista e futurista sulla forma, si determina in tutta Europa, ma specialmente in Germania, la nascita della pittura astratta, che avrà due dei suoi più grandi artisti in Klee e Kandinskij, e nella loro “astrazione lirica”. È invece di nuovo in Francia che, alla metà degli anni Venti, la forza irrazionale e distruttiva del Dada viene ricanalizzata nell’opera d’arte surrealista, che elabora le manifestazioni dell’inconscio umano considerandole come unica autentica espressione di libertà.
+In the second half of 1910s , in contrast to the avant-garde destruction, a reconstruction of the pictorial image is produced, apparently at the opposite pole of the Dada: the Metaphysical art. But Metaphysics, while using accurate figurative painting, narrates and represents the dismemberment of man and knowledge, which reflects his existential condition.
 
-La mostra, presentando opere di grandissimi artisti come Picasso, Braque, Boccioni, Balla, Severini, De Chirico, Klee, Kandinskij, Masson, Max Ernst, Dalì, Mirò, non vuole solo ripercorrere il mezzo secolo più importante dell’arte degli ultimi 100 anni, ma anche allenare l’occhio e la mente alla percezione di queste diverse correnti estetiche e di pensiero, le quali, proprio quando sono poste l’una accanto all’altra, esprimono meglio la loro essenza, nella loro opposizione e differenza, a volte nel loro conflitto. 
+In the 1910s, in parallel to the Cubist and Futurist research on form, the birth of abstract painting is determined throughout Europe, but especially in Germany, which will have two of its greatest artists in Klee and Kandinskij, and in their "lyrical abstraction ".
+
+It is instead again in France that, in the mid-twenties, the irrational and destructive force of the Dada is recanalized in the work of surrealist art, which elaborates the manifestations of the human unconscious considering them as the only authentic expression of freedom.
+
+The exhibition, presenting works by great artists such as Picasso, Braque, Boccioni, Balla, Severini, De Chirico, Klee, Kandinskij, Masson, Max Ernst, Dalì, Mirò, wants to retrace the most important half-century of the art of the last 100 years and  to train the eye and the mind to the perception of these different aesthetic and thought currents, which, once  placed side by side, better express their essence, in their opposition and difference,  sometimes in their conflict. 
