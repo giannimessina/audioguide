@@ -14,11 +14,6 @@ hero_images:
    alt_text: Noto is Impossible
 ---
 
-
-
-
-
-
 "We are on the extreme promontory of the centuries! ...Why should we look behind us if we want to break through the mysterious doors of the impossible?"
 
 So  Filippo Tommaso Marinetti wrote  in 1909, in the Manifesto of the Foundation of Futurism. Soon all over Europe, this would have been the aesthetic and formal, conceptual revolution  influencing  the entire century to come.
