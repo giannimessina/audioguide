@@ -23,6 +23,21 @@
         </div>
 
 
+        <div class="row">
+          <ul class="nav nav-tabs">
+              {% if page.language == 'Italiano' %}
+              <li role="presentation"><a href="/">English</a></li>
+              <li class='active' role="presentation"><a href="/cn">Italiano</a></li>
+              {% else %}
+              <li class='active' role="presentation"><a href="/">English</a></li>
+              <li role="presentation"><a href="/cn">Italiano</a></li>
+              {% endif %}
+          </ul>
+      </div>
+
+
+
+
       <p style="text-align: center;">{{ site.index_page_text }}</p>
 
   <ul class="post-list">
