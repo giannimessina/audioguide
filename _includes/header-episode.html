@@ -13,7 +13,7 @@
 
     {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
     {% for page in pages %}
-     <a href="{{ site.baseurl }}{{ page.url }}"><img src="{{ site.baseurl }}/assets/img/icons/{{ page.lang }}.png" style="width:25px"></a>
+     <a href="{{ site.baseurl }}{{ page.url }}"><img src="{{ site.baseurl }}/assets/img/icons/{{ page.lang }}.png" style="width:40px"></a>
     {% endfor %}
   
 
