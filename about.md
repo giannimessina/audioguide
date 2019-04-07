@@ -12,4 +12,4 @@ Progetto realizzato da: <br>
 Andrea Cavallaro<br><br>
 
 <a href="{{ site.baseurl }}">
-back</a>
+&lquo; back</a>
