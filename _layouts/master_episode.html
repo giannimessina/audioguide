@@ -7,7 +7,8 @@
     {% include tagmanager.html %}
     {% include header-episode.html %}
     <div class="slide-menu">
-  <h2>{{ site.menu_heading }}</h2>
+        {% assign seleziona = site.menu_heading | append: '_'| append: page.lang %}
+  <h2>{{  seleziona }}</h2>
   <ul class="post-list">
     {% assign pages = site.pages | sort: 'page_rank' %}
     {% assign gianni = 'stop' | append: page.lang %}
