@@ -54,10 +54,7 @@ The above snippet allows you to easily use markdown includes in the site, howeve
 Most of the web app (aside from audio!) works without JavaScript, and we've tried to keep to a progressive enhancement approach as much as possible. The following JS libraries have been included here, each is covered by their own MIT license also in the repo. If you're extending this project, you may wish to switch to CDN copies, or concatenate and minify your libraries.
 
 
-## Other people using this project
-
-
-
 ## License
 
-The Museum Audio Guide theme is released under the terms of the MIT license. Included JS libraries are covered by their own licenses, included in this repo.
+The Museum Audio Guide theme is released under the terms of the MIT license. 
+Included JS libraries are covered by their own licenses, included in this repo.
