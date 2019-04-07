@@ -2,9 +2,8 @@
 layout: page
 lang: it
 ref: about
-title: About
-permalink: /about
-
+title: Credits
+permalink: /about/
 ---
 
 Audio Guide 
@@ -13,4 +12,3 @@ Progetto realizzato da: <br>
 Andrea Cavallaro<br><br>
 
 <a href="{{ site.baseurl }}">
-... HOME</a>
