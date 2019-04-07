@@ -20,12 +20,12 @@
   <nav>
     {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
     {% for post in posts %}
-     <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}/assets/img/icons/{{ post.lang }}.pnp" style="width:50px"></a>
+     <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}/assets/img/icons/{{ post.lang }}.png" style="width:50px"></a>
     {% endfor %}
     
     {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
     {% for page in pages %}
-     <a href="{{ site.baseurl }}{{ page.url }}"><img src="{{ site.baseurl }}/assets/img/icons/{{ post.lang }}.png" style="width:50px"></a>
+     <a href="{{ site.baseurl }}{{ page.url }}"><img src="{{ site.baseurl }}/assets/img/icons/{{ page.lang }}.png" style="width:50px"></a>
     {% endfor %}
   
   </nav>
