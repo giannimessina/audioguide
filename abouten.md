@@ -3,7 +3,7 @@ layout: page
 lang: en
 ref: about
 title: About
-permalink: /abouten
+permalink: /about
 
 ---
 
