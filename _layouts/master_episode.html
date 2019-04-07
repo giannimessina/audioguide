@@ -7,17 +7,22 @@
     {% include tagmanager.html %}
     {% include header-episode.html %}
     <div class="slide-menu">
-        {% assign seleziona = site.menu_heading | append: '_' | append: page.lang %}
-  <h2>{{  seleziona }}</h2>
+
+        {% if  page.lang == 'en' %}
+         {% assign gianni = 'stop' | append: page.lang %}
+         {% assign seleziona = site.menu_heading_en %}
+        {% endif %}
+        
+        {% if  page.lang == 'it' %}
+         {% assign gianni = 'stop' %} 
+         {% assign seleziona = site.menu_heading %}
+        {% endif %}
+
+  <h2>{{ seleziona }}</h2>
   <ul class="post-list">
     {% assign pages = site.pages | sort: 'page_rank' %}
     
-    {% if  page.lang == 'en' %}
-    {% assign gianni = 'stop' | append: page.lang %}
-    {% endif %}
-    {% if  page.lang == 'it' %}
-    {% assign gianni = 'stop' %} 
-    {% endif %}
+    
     
     {% for my_page in pages %}{% if  my_page.section_title != null  and my_page.type == gianni %}<li>
         <a class="post-link" href="{{ my_page.url | prepend: site.baseurl }}" style="background-image: url('{{ site.baseurl }}{{ site.headphones_icon_color }}');">
