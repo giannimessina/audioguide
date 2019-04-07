@@ -1,7 +1,7 @@
 ---
 layout: page
 lang: it
-ref: About
+ref: about
 title: About
 permalink: /about/
 ---

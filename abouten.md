@@ -1,15 +1,15 @@
 ---
 layout: page
 lang: en
-ref: About
+ref: about
 title: About
 permalink: /about/
 ---
 
-Audio Guide 
+Audioguide 
 Project by: <br>
 [Gianni Messina](https://www.giannimessina.it/)<br>
 Andrea Cavallaro<br><br>
 
 <a href="{{ site.baseurl }}">
-back</a>
+&lquo;</a>
