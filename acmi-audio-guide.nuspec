@@ -3,10 +3,10 @@
   <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <id>MuseumAudioGuide</id>
     <title>Museum Audio Guide</title>
-    <version>1.0.0</version>
-    <authors>GianniMessina</authors>
+    <version>1.3.0</version>
+    <authors>Gianni Messina</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Lightweight static audio guides.</description>
+    <description>Lightweight static audioguides.</description>
   </metadata>
   <files>
     <file src="_site\**\*.*" target="build" />
