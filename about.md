@@ -3,7 +3,8 @@ layout: page
 lang: it
 ref: about
 title: About
-permalink: /about/
+permalink: /about
+
 ---
 
 Audio Guide 

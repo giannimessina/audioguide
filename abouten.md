@@ -1,9 +1,10 @@
 ---
-layout: pageen
+layout: page
 lang: en
 ref: about
 title: About
-permalink: /about/
+permalink: /abouten
+
 ---
 
 Audioguide 
