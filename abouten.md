@@ -3,12 +3,12 @@ layout: page
 lang: en
 ref: about
 title: About
-permalink: /about
+permalink: /about/
 
 ---
 
 Audioguide 
-Project by: <br>
+Project by: <br><br>
 [Gianni Messina](https://www.giannimessina.it/)<br>
 Andrea Cavallaro<br><br>
 
