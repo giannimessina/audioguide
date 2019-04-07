@@ -11,23 +11,18 @@
       <img src="{{ site.baseurl }}{{site.logo}}" alt="{{site.title}} logo" class="site-logo"/>
     </a>
 
+    {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+    {% for page in pages %}
+     <a href="{{ site.baseurl }}{{ page.url }}"><img src="{{ site.baseurl }}/assets/img/icons/{{ page.lang }}.png" style="width:25px"></a>
+    {% endfor %}
+  
+
     <a class="site-header-menu-button dont-use-ios-override" href="{{ site.baseurl }}/">
       <img src="{{ site.baseurl }}/assets/img/icons/menu_icon.png"/>
     </a>
 
+
   </div>
 
-  <nav>
-    {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-    {% for post in posts %}
-     <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}/assets/img/icons/{{ post.lang }}.png" style="width:50px"></a>
-    {% endfor %}
-    
-    {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-    {% for page in pages %}
-     <a href="{{ site.baseurl }}{{ page.url }}"><img src="{{ site.baseurl }}/assets/img/icons/{{ page.lang }}.png" style="width:50px"></a>
-    {% endfor %}
-  
-  </nav>
 
 </header>
