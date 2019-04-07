@@ -72,12 +72,13 @@
       
       <div class="player-buttons">
         <div class="player-buttons-prev">
-          {% for my_page in site.pages %}
+          {% for my_page in site.pages %}{% if  my_page.section_title != null  and my_page.type == gianni %}
             {% capture page_rank_lower %}{{my_page.page_rank | plus: 1}}{% endcapture %}
             {% capture existing_page_rank %}{{page.page_rank | plus: 0}}{% endcapture %}
             {% if page_rank_lower == existing_page_rank and my_page.page_rank != null %}
               <a href="{{ my_page.url | prepend: site.baseurl }}"></a>
               <span class="player-buttons-prev-number">{{ my_page.stop_id }}</span>
+            {% endif %}
             {% endif %}
           {% endfor %}
         </div>
@@ -89,13 +90,14 @@
         {% endif %}
 
         <div class="player-buttons-next">
-          {% for my_page in site.pages %}
+          {% for my_page in site.pages %}{% if  my_page.section_title != null  and my_page.type == gianni %}
             {% capture page_rank_higher %}{{my_page.page_rank | minus: 1}}{% endcapture %}
             {% capture existing_page_rank %}{{page.page_rank | plus: 0}}{% endcapture %}
             {% if page_rank_higher == existing_page_rank and my_page.page_rank != null %}
               <a href="{{ my_page.url | prepend: site.baseurl }}"></a>
               <span class="player-buttons-next-number">{{ my_page.stop_id }}</span>
             {% endif %}
+            {% endif %} 
           {% endfor %}
         </div>
       </div>
