@@ -12,4 +12,4 @@ Project by: <br>
 Andrea Cavallaro<br><br>
 
 <a href="{{ site.baseurl }}">
-&lquo;</a>
+... HOME</a>
