@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: pageen
 lang: en
 ref: about
 title: About
