@@ -13,8 +13,6 @@ hero_images:
 hero_images:
  - path: 03-01.jpg
    alt_text: stop 3
- - path: 03-02.jpg
-   alt_text: stop 3
 ---
 
 The first room of the exhibition presents a comparison between the Cubist decomposition and the Futurist dynamism, retracing the main events of art history from 1907 to 1915.
