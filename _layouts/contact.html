@@ -7,11 +7,10 @@
   	{% include tagmanager.html %}
     {% include header.html %}
 
-<!-- 
-     After implementing this contact form make sure
-     1. you have defined "email: youremail@email.com" in _config.yml file.
-     2. you verify your form on formspree.io.
--->
+    <div class="page-content">
+
+      <div class="wrapper welcome">
+
 
 <form class="wj-contact" action="https://formspree.io/{{site.email}}" method="POST">
   <input type="text" name="email" placeholder="Email Address">
@@ -49,6 +48,7 @@ form.wj-contact input[type="submit"] {
   height: auto;
 }
 </style>
+</div></div>
 
   </body>
 
