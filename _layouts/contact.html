@@ -15,19 +15,22 @@
 
 <form class="wj-contact" action="https://formspree.io/{{site.email}}" method="POST">
   <input type="email" name="email" placeholder="Email Address" maxlength="80"><br>
-  <input type="text" name="nome" placeholder="Name" maxlength="80"></input>
+  <input type="text" name="nome" placeholder="Name" maxlength="80"></input><br>
   <input type="hidden" name="_next" value="audioguide">
   <input type="hidden" name="_subject" value="New Contact Form Submission">
   <input type="text" name="_gotcha" style="display:none">
-  <input type="submit" value="OK">
+  <input type="submit" value="Ok Start">
 </form>
 
 <style>
 form.wj-contact input[type="text"],input[type="email"], form.wj-contact textarea[type="text"] {
   width: 80%;
   vertical-align: middle;
+  
   margin-top: 2em;
   margin-bottom: 1.5em;
+  margin:0 auto;
+  overflow: hidden;
   padding: 0.75em;
   font-weight: lighter;
   border-style: solid;
