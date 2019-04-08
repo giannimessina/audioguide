@@ -1,7 +1,7 @@
 ---
 layout: contact
 lang: it
-ref: contact
+ref: contatti
 title: Audioguida Sicilia Musei
 
 ---
